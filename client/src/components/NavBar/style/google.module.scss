@@ -1,0 +1,67 @@
+.auth_google_logout{
+    cursor:pointer;
+    border-radius: 8px;
+    height: 70%; text-decoration: none;
+    width: 30%;
+    background-color: #e5e5e5;
+    border:1px solid orange;
+    font-size: 1rem;
+    color:black;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    
+    
+    &:hover {
+        background-color: rgb(222, 155, 30);
+        box-shadow: 0 0 8px grey;
+    }  
+}
+.auth_google_photo{
+    border-radius: 22px;
+    width: 2rem;
+}
+.auth_google_email{
+    position:absolute;
+    top:7.5rem;
+    left:4rem;
+    font-size: 10px;
+}
+
+#navButtons{
+    display: flex;
+    justify-content: space-around;
+}
+
+#switchTheme{
+    border-radius: 50%;
+    width: 50px;
+    align-self: flex-end;
+    transition: .4s;
+    svg{
+        width: 40px; height: 40px;
+    }
+    &:hover{
+        color: white;
+        background-color: black;
+        box-shadow: 0 0 15px 8px grey;
+    }
+}
+#profileBtn, #cartBtn{
+    border-radius: 50%;
+    width: 50px; height: 48px;
+    align-self: flex-end;
+    transition: .4s;
+    svg{
+        width: 30px; height: 30px; 
+        color: black;
+        &:hover{
+            color: white;
+        }
+    }
+    &:hover{
+        color: white;
+        background-color: black;
+        box-shadow: 0 0 15px 8px grey;
+    }
+}
