@@ -7,7 +7,8 @@
 ### Full Stack
 
 
-![readme github](https://user-images.githubusercontent.com/39442992/177015931-903fb9c4-9164-4616-a562-07598c18070f.png)
+![foto food universe](https://user-images.githubusercontent.com/39442992/177390741-d8ad92e1-3ad5-475b-8813-2fa9504ddea9.png)
+
 
 #### Front 
 
@@ -29,5 +30,18 @@
 -   nodemailer
 -   express-validator
 
-
+ ## ¿ Cómo levantar el Back?
+ 
+ #### Abrir la terminal
+ #### Posicionarse sobre la carpeta en donde se ha clonado el repo
+ #### Posicionarse sobre la carpeta /api
+ #### npm start
+ 
+  ## ¿ Cómo levantar el Front ?
+ 
+ #### Abrir la terminal
+ #### Posicionarse sobre la carpeta en donde se ha clonado el repo
+ #### Posicionarse sobre la carpeta /client
+ #### npm start
+ 
 
