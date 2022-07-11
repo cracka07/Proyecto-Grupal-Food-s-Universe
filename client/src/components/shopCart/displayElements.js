@@ -3,6 +3,10 @@ import styled from "styled-components"
 export const GlobalContainer = styled.section`
     width: 100%;
     height: 100%;
+    background-image:url("https://previews.123rf.com/images/jagcz/jagcz1702/jagcz170200134/72504512-comida-asi%C3%A1tica-servido-en-blanco-mesa-de-madera-vista-desde-arriba-el-espacio-para-el-texto-juego-d.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 `
 
 export const TitleMainContainer = styled.section`
