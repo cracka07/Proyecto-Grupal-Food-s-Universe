@@ -58,6 +58,7 @@ function App() {
 
     return (
         <div className="App">
+           
             <BrowserRouter>
                 <GlobalStyle theme={theme} />
                 <ScrollToTop />
@@ -177,6 +178,7 @@ function App() {
                         />
                     </Route>
                 </Routes>
+                
             </BrowserRouter>
         </div>
     )
