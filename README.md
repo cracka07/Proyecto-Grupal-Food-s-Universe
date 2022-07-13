@@ -1,12 +1,16 @@
-# Food Fast
+# Food's Universe
 
-## Proyecto Grupal Soy Henry
+## Proyecto Grupal - Academia Henry
 
-E-commerce desarrollado como proyecto final para el bootcamp Soy Henry.
+### E-commerce desarrollado como proyecto final para el bootcamp Soy Henry.
 
-### Stack
+### Full Stack
 
-#### Front
+
+![foto food universe](https://user-images.githubusercontent.com/39442992/177390741-d8ad92e1-3ad5-475b-8813-2fa9504ddea9.png)
+
+
+#### Front 
 
 -   react
 -   react-router
@@ -16,62 +20,28 @@ E-commerce desarrollado como proyecto final para el bootcamp Soy Henry.
 -   redux-thunk
 -   styled-components
 -   sass
--   axios
 
-#### Back
+#### Back 
 
 -   MongoDB
--   mongoose
 -   Express
--   cors
--   morgan
+-   Node Js
+-   jsonwebtoken
+-   nodemailer
+-   express-validator
 
-### Rutas
+ ## ¿ Cómo levantar el Back?
+ 
+ #### Abrir la terminal
+ #### Posicionarse sobre la carpeta en donde se ha clonado el repo
+ #### Posicionarse sobre la carpeta /api
+ #### npm start
+ 
+  ## ¿ Cómo levantar el Front ?
+ 
+ #### Abrir la terminal
+ #### Posicionarse sobre la carpeta en donde se ha clonado el repo
+ #### Posicionarse sobre la carpeta /client
+ #### npm start
+ 
 
-#### Front
-
--   localhost:3000/ _(landing page / productos y locales recomendados)_
-    -   /shops _(ver todos los locales / buscar locales)_
-    -   /categories _(ver todas las categorias)_
-        -   /[id] _(ver todos los locales y productos de esa categoria)_
-    -   /auth _(iniciar sesion / crear sesion)_
--   /user/[id] _(perfil)_
-    -   /reviews _(ver todas mis reseñas)_
-        -   /[id] _(ver detalle reseña)_
-    -   /orders _(ver todos mis pedidos)_
-        -   /[id] _(ver detalle pedido)_
--   /shop/[id] _(landing local)_
-    -   /products _(ver productos del local / buscar producto)_
-        -   /[id] _(ver detalle producto)_
-    -   /reviews _(ver todas las reseñas del local)_
-    -   /dashboard _(landing page gerente del local)_
-        -   /orders _(ver todos los pedidos / administrar pedidos pendientes)_
-        -   /products _(administrar productos y promociones del local)_
-
-#### Back
-
--   api/v1
-    -   /categories
-        -   GET
-        -   POST
-        -   DELETE
-
-### Estructura de archivos
-
--   /api
-    -   /controllers
-    -   /routes
-    -   /src
-        -   /models
-        -   /routes
-    -   app.js
--   /client
-    -   /public
-    -   /src
-        -   /components
-        -   /redux
-            -   /actions
-            -   /reducers
-            -   store.js
-        -   App.js
-        -   index.js
