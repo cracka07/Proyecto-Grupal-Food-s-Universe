@@ -7,6 +7,7 @@ export const StyledUserReviews = styled.div`
     gap: 1rem;
     align-items: center;
     background-color: ${({ theme }) => theme.colors.bgPage};
+    background-image: url("https://i.pinimg.com/originals/44/0a/d7/440ad77466d23d45ae83b5b0d8eb6bca.jpg");
 
     .reviews {
         display: flex;

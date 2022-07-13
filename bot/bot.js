@@ -6,7 +6,7 @@ console.log("wlecome bot-telegram")
 // @foodfastapp_bot
 
 const api = "http://localhost:3001/api/v1"
-const client = "https://food-fast-client.vercel.app"
+const client = "https://e-commerce-food-s-universe-front.vercel.app/"
 const bot = new Telegraf(process.env.TOKEN)
 
 const fetchProducts = async () => {
