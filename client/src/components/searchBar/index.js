@@ -118,7 +118,7 @@ export default function SearchBar() {
         dispatch(searchProductSync(""))
     }
     const inputProps = {
-        placeholder: listen ? "Listening..." : "Product name",
+        placeholder: listen ? "Escuchando..." : "nombre del producto",
         value: input,
         onChange: handleChange
     }
